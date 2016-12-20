@@ -1,3 +1,9 @@
-<h1>
-  {{title}}
-</h1>
+<div class="wrap">
+  <div class="box" [@animate]="state">
+    Hola Mundo Animado!
+  </div>
+  <button (click)="animate('bounceOutUp')">Bounce Out up</button>
+  <button (click)="animate('bounceInRight')">Bounce in Right</button>
+</div>
+
+
